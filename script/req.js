@@ -1,4 +1,11 @@
 
+const Ramber = {
+    Host : "Test",
+    Text1 : "Yeah Our project is working.",
+    Text2 : "Thank you for Test Our project.",
+    Text3 : "We want to say thank you to all of yours."
+  };
+
 button5.onpointerdown = function (){
 
     // Created loop through 2 Array
@@ -14,14 +21,14 @@ button5.onpointerdown = function (){
     //clear interval
     clearInterval(checkIt);
     //Created condition to getting Text
-    
-} 
-/*$.getJSON("https://raw.githubusercontent.com/fifa0095/fefa/main/Test.json?callback=?", function(data){
-    if (count > 2){
-        alert(data['Text3']);
-    }else if (count > 0){
-        alert(data['Text2']);
+
+    //Use this condition to show pop up
+    if (count >2){
+        alert(Json["Text3"]);
+    }else if (count >0){
+        alert(Json["Text2"]);
     }else{
-        alert(data['Text1']);
-    }*/    
-});
+        alert(Json["Text1"]);
+    }
+    
+};
