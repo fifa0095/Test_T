@@ -28,6 +28,15 @@ button5.onpointerdown = function (){
         const Text1 = JsonFile["Text1"];
         const Text2 = JsonFile["Text2"];
         const Text3 = JsonFile["Text3"];
+        
+        //Use this condition to show pop up
+        if (count >2){
+            alert(Text3);
+        }else if (count >0){
+            alert(Text2);
+        }else{
+            alert(Text1);
+        }
     }
 
     // Created loop through 2 Array
@@ -44,13 +53,5 @@ button5.onpointerdown = function (){
     clearInterval(checkIt);
     //Created condition to getting Text
 
-    //Use this condition to show pop up
-    if (count >2){
-        alert(Text3);
-    }else if (count >0){
-        alert(Text2);
-    }else{
-        alert(Text1);
-    }
     
 };
