@@ -8,11 +8,11 @@ const Ramber = {
   };
 
 //Example
-const Patnj18 ={
-    Host : "Pat 6/15",
-    Text1 : "",
-    Text2 : "",
-    Text3 : ""
+const fifa0095 ={
+    Host : "Fifa606",
+    Text1 : "คือกูไม่รู็ว่ามึงไปไงแต่ถ้าหมดไฟก็สู้ๆนะมึงอีกนิดเดียว",
+    Text2 : "ขอบคุณมากเว้ย ตลอด3ปี มีถึงมึงข้างล่างนะ",
+    Text3 : "มึงโหดมากอะอันนี้คือกดถูก ไปอ่านข้างล่างเอา"
 };
 
 button5.onpointerdown = function (){
