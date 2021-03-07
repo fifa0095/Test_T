@@ -1,10 +1,10 @@
 
 //Test
 const Ramber = {
-    Host : "Test",
-    Text1 : "Yeah Our project is working.",
-    Text2 : "Thank you for Test Our project.",
-    Text3 : "We want to say thank you to all of yours."
+    "Host" : "Test",
+    "Text1" : "คือกูไม่รู็ว่ามึงไปไงแต่ถ้าหมดไฟก็สู้ๆนะมึงอีกนิดเดียว",
+    "Text2" : "ขอบคุณมากเว้ย ตลอด3ปี มีถึงมึงข้างล่างนะ",
+    "Text3" : "มึงโหดมากอะอันนี้คือกดถูก ไปอ่านข้างล่างเอา"
   };
 
 //Example
